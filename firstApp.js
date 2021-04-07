@@ -1,5 +1,6 @@
 const sensorLib = require('node-dht-sensor');
 const http = require('http')
+const teo = "prova";
 
 // Setup sensor, exit if failed
 var sensorType = 11; // 11 for DHT11, 22 for DHT22 and AM2302
